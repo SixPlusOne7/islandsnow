@@ -9,3 +9,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 footer h6 { letter-spacing: .08em; }
 footer .form-control::placeholder { color: #bbb; }
+
+/* Footer polish per WOD 3 */
+footer h6 { letter-spacing: .08em; }
+footer .form-control::placeholder { color: #bbb; }
+
