@@ -1,18 +1,11 @@
-/* Island Snow WOD 1 styling */
+/* Tighter look to match the screenshot */
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
-}
+.navbar { --bs-navbar-padding-y: .5rem; }
+.navbar.small { --bs-navbar-padding-y: .25rem; }
 
-.navbar-brand {
-  letter-spacing: 0.05em;
-}
+.menu-tight .nav-link { font-size: .95rem; letter-spacing: .06em; }
+.menu-tight .nav-link:hover { color: #0d6efd; }
 
-.nav-link {
-  font-size: 0.9rem;
-}
-
-.navbar .nav-link:hover {
-  color: #007bff;
-}
+footer h6 { letter-spacing: .08em; }
+footer .form-control::placeholder { color: #bbb; }
