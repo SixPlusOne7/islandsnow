@@ -1,7 +1,18 @@
-/* Minimal tweaks; keep most styling from Bootstrap defaults */
-.navbar .nav-link {
-  font-size: 0.95rem;
+/* Island Snow WOD 1 styling */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
 }
+
 .navbar-brand {
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff;
 }
