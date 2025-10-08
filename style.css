@@ -1,0 +1,7 @@
+/* Minimal tweaks; keep most styling from Bootstrap defaults */
+.navbar .nav-link {
+  font-size: 0.95rem;
+}
+.navbar-brand {
+  letter-spacing: 0.06em;
+}
